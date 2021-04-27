@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat/Montserrat-Regular.otf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("/fonts/Montserrat/Montserrat-SemiBold.otf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-Thin";
+  src: url("/fonts/Montserrat/Montserrat-Thin.otf");
+  font-style: normal;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Montserrat", "Segoe UI", Tahoma, Verdana, sans-serif;
+  margin: 0%;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  margin: auto;
+}
+
+.copart {
+  color: #000000;
+  border-radius: 25px;
+  background-color: #ffffff;
+
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.coheader {
+  width: fit-content;
+  text-align: center;
+  padding-inline: 18px;
+  padding-bottom: 2px;
+  margin: auto;
+  font-size: 0.8em;
+  border-radius: 8px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: chocolate;
+  color: white;
+}
+
+.paragraphs {
+  height: calc(100% - 17px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paragraphs h1 {
+  font-size: 6em;
+}
+
+.paragraphs h2 {
+  font-size: 1.8em;
+  margin-top: 0;
+  margin-bottom: 1.7em;
+  margin-right: 0.3em;
+}

@@ -1,0 +1,172 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat/Montserrat-Regular.otf"); /*Opentype font*/
+  font-style: normal; /*Fontstyle set to normal*/
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("/fonts/Montserrat/Montserrat-SemiBold.otf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-Thin";
+  src: url("/fonts/Montserrat/Montserrat-Thin.otf");
+  font-style: normal;
+}
+
+/* Declare general styles for elements in the body tag*/
+body {
+  font-family: "Montserrat", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px;
+}
+
+/*
+.navbar {
+  background-color: #888888;
+  display: flex;
+  width: 100%;
+  height: fit-content;
+}
+
+.navbar-title {
+  float: left;
+  margin: 0px;
+  padding: 10px;
+  padding-inline: 20px;
+  width: fit-content;
+  background-color: black;
+  color: white;
+}
+
+.buttons-container {
+  margin-block: auto;
+  margin-inline: auto;
+}
+
+
+.navbar-items {
+  float: left;
+  width: fit-content;
+  padding-inline: 10px;
+  color: white;
+  text-decoration: none;
+}
+*/
+
+/*-------------------------------------------------------------------------------------------------------------*/
+
+.main-page {
+  position: absolute;
+  background-color: #000000;
+  color: #cccccc;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+.page-content {
+  margin: auto;
+  text-align: center;
+  font-family: "Montserrat-SemiBold", "Segoe UI", Tahoma, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.page-title {
+  margin: auto;
+  font-family: "Montserrat-SemiBold", "Segoe UI", Tahoma, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.main-menu {
+  display: flex;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding: 0px;
+  font-family: "Montserrat-Thin", "Segoe UI", Tahoma, Geneva, Verdana;
+  list-style-type: none;
+}
+
+.main-menu li a {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.main-menu img {
+  padding-right: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.main-menu br {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  /*
+  .navbar {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .navbar-title {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .navbar-items {
+    float: left;
+    width: fit-content;
+    padding-inline: 10px;
+    margin: auto;
+    margin-block: 0.8em;
+    color: white;
+    text-decoration: none;
+  }
+  */
+
+  /*-------------------------------------------------------------------------------------------------------------*/
+
+  .page-title {
+    font-size: 2.1em;
+    margin-top: 0.5em;
+  }
+
+  .page-content {
+    margin: auto;
+  }
+
+  .main-menu {
+    display: block;
+  }
+
+  .main-menu li {
+    line-height: 0.8em;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    margin-block: 20px;
+    font-size: 0.7em;
+  }
+
+  .main-menu a {
+    display: block;
+  }
+
+  .main-menu img {
+    display: block;
+    height: 3em;
+    width: 3em;
+    margin: auto;
+  }
+
+  .main-menu br {
+    display: initial;
+  }
+}
